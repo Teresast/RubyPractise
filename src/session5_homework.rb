@@ -23,7 +23,7 @@ module Attrs
 end
 
 
-class Cat
+class Girl
  	extend Attrs
 
  	my_attr_reader :gender
@@ -35,9 +35,9 @@ class Cat
  	end
 end
 
-cat = Cat.new("f")
-p cat.gender
-cat.age = "3"
-p cat.name = "Kathy"
+girl = Girl.new("f")
+p girl.gender
+girl.age = "3"
+p girl.name = "Kathy"
 
 
